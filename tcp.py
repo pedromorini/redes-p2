@@ -62,7 +62,6 @@ class Servidor:
             print('%s:%d -> %s:%d (pacote associado a conexão desconhecida)' %
                   (src_addr, src_port, dst_addr, dst_port))
 
-
 class Conexao:
     def __init__(self, servidor, id_conexao, seq_no, ack_no):
         self.servidor = servidor
